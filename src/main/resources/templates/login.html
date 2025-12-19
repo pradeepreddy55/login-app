@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Welcome Back</title>
     <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/password-toggle.js"></script>
 </head>
 <body>
     <div class="container">
@@ -18,7 +19,10 @@
             
             <div class="form-group">
                 <label for="password">Password</label>
-                <input type="password" id="password" name="password" required>
+                <div class="password-container">
+                    <input type="password" id="password" name="password" required>
+                    <button type="button" class="password-toggle" data-target="password" aria-label="Show password">👁️</button>
+                </div>
             </div>
             
             <button type="submit" class="btn">Sign In</button>
