@@ -1,11 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Welcome</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome - Dashboard</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-<h2>Welcome [[${username}]] 🎉</h2>
-
-<a href="/">Logout</a>
+    <div class="container welcome-container">
+        <h2 class="welcome-title">Welcome <span th:text="${username}"></span>! 🎉</h2>
+        
+        <p>You have successfully logged into your account.</p>
+        
+        <a href="/" class="logout-btn">Logout</a>
+    </div>
 </body>
 </html>
