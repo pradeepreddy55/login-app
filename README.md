@@ -123,8 +123,8 @@ login-app/
 The application uses the following default database settings:
 - **Host**: localhost:3306
 - **Database**: login_app
-- **Username**: root
-- **Password**: Pradeep@123
+- **Username**: *****
+- **Password**: ***********
 
 ### Server Configuration
 - **Port**: 8080
